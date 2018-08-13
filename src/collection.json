@@ -1,0 +1,13 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "angular-schematics-sample": {
+      "description": "A blank schematic.",
+      "factory": "./angular-schematics-sample/index#angularSchematicsSample"
+    },
+    "author-info": {
+      "description": "Adds author information to new components",
+      "factory": "./author-info/index#authorInfo"
+    }
+  }
+}
